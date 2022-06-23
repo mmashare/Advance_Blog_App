@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #52525b;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .fullcard{
+    background-color: black;
+} */
+
+.maincard{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap:8px; 
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.latestpostHeading{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+
+.latestpostdiv{
+    /* background-color: blanchedalmond; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.headingdiv{
+    height: 30px;
+    width: 100%;
+}
+
+.allpostheading{
+    margin-left: 550px;
+}
+

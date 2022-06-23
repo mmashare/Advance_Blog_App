@@ -1,0 +1,36 @@
+.container{
+    height: 40px;
+    width: 100%;
+    margin-left: 95px;
+  
+}
+
+.inputt{
+    margin-left: 340px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 290px;
+    height: 25px;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    
+    width: 70px;
+    height: 27px;
+    border-radius: 2px;
+    border-width: 1px;
+    outline: none;
+}
+
+.resetbtn{
+    margin-left: 3px;
+    outline: none;
+   
+    border-radius: 2px;
+    border-width: 1px;
+    height: 27px;
+    width: 50px;
+}

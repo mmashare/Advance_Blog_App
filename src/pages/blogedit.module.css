@@ -1,0 +1,98 @@
+.fulldiv {
+  background-color: #47b5ff;
+  width: 100vw;
+  height: 100vh;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+
+}
+
+.title {
+ 
+  position: relative;
+  left:14rem;
+  outline: none;
+  border: none;
+  color: #000000;
+  background-color: #dff6ff;
+  width: 800px;
+  height: 25px;
+  padding: 5px;
+}
+
+.textArea {
+  position: relative;
+  left:14rem;
+  outline: none;
+  border: none;
+  color: #000000;
+  background-color: #dff6ff;
+  width: 800px;
+  margin-top: 10px;
+}
+
+.files {
+  position: relative;
+  left:31rem;
+  outline: none;
+  border: none;
+  color: #000000;
+  background-color: #dff6ff;
+  margin-top: 10px;
+  width: 235px;
+  padding: 10px;
+}
+
+.option {
+  position: relative;
+  left:31rem;
+  outline: none;
+  border: none;
+  color: #000000;
+  background-color: #dff6ff;
+  margin-top: 10px;
+  height: 25px;
+  width: 235px;
+}
+
+.uploadbtn {
+  position: relative;
+  left:29rem;
+  outline: none;
+  cursor: pointer;
+  border-color: #242f9b;
+  border-radius: 6px;
+  color: #dbdffd;
+  background-color: #242f9b;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.gobackbtn {
+  position: relative;
+  left:37rem;
+  outline: none;
+  cursor: pointer;
+  border-color: #242f9b;
+  border-radius: 6px;
+  color: #dbdffd;
+  background-color: #242f9b;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 35px;
+}
+
+.categorymessage {
+  position: relative;
+  left: 130px;
+  height: 2px;
+  font-size: 14px;
+  padding-top: 5px;
+  color: red;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

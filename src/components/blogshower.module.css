@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+ *{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fullpanel{
+    background-color: #a5f3fc;
+    height: 320px;
+    width: 290px;
+}
+/* .conatainer{
+    background-color: aqua;
+    height: 125px;
+    width: 290px;
+    
+} */
+
+.images{
+    
+    height: 130px; 
+     width: 100%;
+   
+
+    
+}
+
+.titlepanel{
+    font-family: 'Raleway', sans-serif;
+    font-style:normal;
+    font-weight: 800;
+    
+    height: 25px;
+    overflow-wrap: break-word;
+    margin-left: 9px;
+    margin-right:9px;
+    margin-top: 4px;
+    font-size: large;
+}
+
+.descriptionpanel{
+    font-family: 'Raleway', sans-serif;
+    font-style:normal;
+    font-weight: 500;
+    margin-left: 9px;
+    margin-right:9px;
+    overflow-wrap: break-word;
+    height: 55px;
+}
+
+.readmepanel {
+   background-color:#d1d5db  ;
+   font-size: 15px;
+   padding-top:6px;
+    color:#334155 ;
+    height: 30px;
+    width: 85px;
+    text-align: center;
+    
+    position: relative;
+    left: 100px;
+    /* right: 25px; */
+    border-radius: 2px;
+    /* margin-right: 100px; */
+}
+
+:hover.readmepanel{
+    color:#881337
+}
+
+.categorypanel{
+    border-radius: 2px;
+    text-align: center;
+    width: 42px;
+    padding-top:4.5px;
+    /* background-color:#16a34a ; */
+    color:black ;
+    font-size: 15px;
+    
+    position: relative;
+    top: 4px;
+    left: 120px;
+    height: 26px;
+}
+
+
+.edittag{
+    cursor: pointer;
+    border-radius: 2px;
+    background-color:#d1d5db ;
+    height: 26px;
+    width: 34px;
+    color:#334155 ;
+    margin-top: 2px;
+    margin-left: 28px;
+    margin-right:100px ;
+    outline: none;
+    border: none;
+}
+:hover.edittag{
+    color:  #881337 ;
+}
+
+
+.deletebtn{
+   cursor: pointer;
+    border-radius: 2px;
+    background-color:#d1d5db ;
+    height: 26px;
+    width: 47px;
+    color:#334155 ;
+    outline: none;
+    border: none;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+:hover.deletebtn{
+    color:  #881337 ;
+}

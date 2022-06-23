@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.divcontainer{
+    height: 56px;
+    width:100%;
+    background-color: antiquewhite;
+}
+
+
+.ullist{
+    
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.logo{
+    
+   position: absolute;
+  
+ 
+   top: 8px;
+   left: 50px;
+   width: 55px;
+   height:50px;
+}
+.home{
+    padding-left:15px ;
+}
+.addblog{
+    padding-left:15px ;
+}
+.about{
+    padding-left:15px ;
+}
